@@ -1,0 +1,18 @@
+
+
+@media (max-width: 760px) {
+    /* college campus image side  */
+    .collegecamp{
+        display: none;
+    }
+
+    /* sign form side  */
+    .signform{
+        width: 100%;
+        padding: 0rem 2rem;
+    }
+    .formbg{
+        border-radius: 10px;
+    }
+
+}

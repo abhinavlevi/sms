@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-purple: #841FEB;
+  --plain-white : #fff
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: #841FEB;
+  }
+}
+
+::selection{
+  background-color: var(--primary-purple);
+  color: var(--plain-white);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
