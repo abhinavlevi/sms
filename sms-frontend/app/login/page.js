@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import collegecampus from '@/public/collegecampus.jpg'
+import collegecampus from '@/public/assets/collegecampus.jpg'
 import './style.css'
 
 const page = () => {
@@ -27,7 +27,9 @@ const page = () => {
         <p className="mt-2 text-center text-sm text-gray-600 max-w">
           Or <Link href="/sign-in" className="font-medium text-[#841FEB] hover:text-[#aa6aeb]">
              Create an account
-          </Link>
+          </Link>  Or <Link href="/" className="font-medium text-[#841FEB] hover:text-[#aa6aeb]">
+                               Visit Home
+                            </Link>
         </p>
       </div>
 

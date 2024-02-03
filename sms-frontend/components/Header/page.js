@@ -1,3 +1,5 @@
+'use client';
+
 import { Fragment, useState } from 'react'
 import Image from 'next/image'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
@@ -11,7 +13,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import logowh from '../../public/logo.png'
+import logowh from '../../public/assets/logo.png'
 import Link from 'next/link'
 
 

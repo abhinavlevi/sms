@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import xanformimg from '../../public/Xanform.png'
+import xanformimg from '../../public/assets/Xanform.png'
 import Image from 'next/image'
 
 const page = () => {
@@ -12,7 +12,7 @@ const page = () => {
     <footer className="bg-white border-t border-gray-200">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="lg:flex lg:items-start lg:gap-8">
-    <div className="max-w-[90px]">
+    <div className="pt-2 max-w-[80px]">
               <Image className='rounded-full border border-gray-300 '
                 src={xanformimg}
                 layout="responsive"
@@ -37,7 +37,7 @@ const page = () => {
             <label htmlFor="UserEmail" className="sr-only"> Email </label>
 
             <div
-              className="border border-gray-200 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 rounded-lg"
+              className="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4 rounded-lg"
             >
               <input
                                             id="email"
